@@ -1,0 +1,128 @@
+{
+  "models": [
+    {
+      "key": "v3_en",
+      "id": "yuchuantian/AIGC_detector_env3",
+      "revision": "3ceb1d1bb7b9ca11585ce3f4299950e1c465b6d8",
+      "language": "en",
+      "local_path": "${PAPER_AI_AUDIT_MODELS}/v3_en",
+      "max_length": 512,
+      "temperature": 1.0,
+      "ai_class": 1,
+      "files": [
+        {
+          "name": "config.json",
+          "sha256": "e502438de8508fd33a80095c8e1376868f742f1bdf805b11f3af06aede9ca76e"
+        },
+        {
+          "name": "merges.txt",
+          "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "sha256": "16d787f691ea4498631175ad2ec912940958517841bf4211aac9c3a9bffb2650"
+        },
+        {
+          "name": "README.md",
+          "sha256": "4bcf87ecfbbb8e07a01b21415a970c8b53a5283bf6872b657040d3f45c9241f7"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "sha256": "8293ae960b0a0852d4d3813118030a1149a3ed9fe37bc2e1e7b3c2e62eb2d4b7"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "sha256": "9b90983e8c77bc7147ba305c3d362fb905b5bc70669910969143a6cc28431fe5"
+        },
+        {
+          "name": "vocab.json",
+          "sha256": "32b29acf82d3333462eb4b13416760f2aef956052e8fea1749fe5b20f866a4bf"
+        }
+      ]
+    },
+    {
+      "key": "v3_zh",
+      "id": "yuchuantian/AIGC_detector_zhv3",
+      "revision": "47695ff451b32c225dd938f4f478f7fdc6aa6bb0",
+      "language": "zh",
+      "local_path": "${PAPER_AI_AUDIT_MODELS}/v3_zh",
+      "max_length": 512,
+      "temperature": 1.0,
+      "ai_class": 1,
+      "files": [
+        {
+          "name": "config.json",
+          "sha256": "74dfcf54a25f4847f97e285f60c03d3ceaccba87484c41ab4144e6acc4d7ecf4"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "sha256": "83b065f6302b98d296cdcad6e8f944013faa3cdc89de3d72aca5ecc8e0eaaded"
+        },
+        {
+          "name": "README.md",
+          "sha256": "4bcf87ecfbbb8e07a01b21415a970c8b53a5283bf6872b657040d3f45c9241f7"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "sha256": "988cf0a4f56217ba915002e24de6d4621188f16942e5768d4eaf6564b166e1f0"
+        },
+        {
+          "name": "vocab.txt",
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ]
+    },
+    {
+      "key": "bert_zh",
+      "id": "AnxForever/chinese-ai-detector-bert",
+      "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+      "language": "zh",
+      "local_path": "${PAPER_AI_AUDIT_MODELS}/bert_zh",
+      "max_length": 256,
+      "temperature": 0.8165,
+      "ai_class": 1,
+      "files": [
+        {
+          "name": "config.json",
+          "sha256": "5339317e1ef7eb7a7d0b12919e6f51ecafcd9095964e0a22a3149fb6b0c3d15b"
+        },
+        {
+          "name": "eval_comparison.json",
+          "sha256": "33efda6f970d7fe1fceebda3986f532e676c14b758e619fb85f48bbff79307f0"
+        },
+        {
+          "name": "eval_perclass.json",
+          "sha256": "1535553d153dd2176a31b1372746218e769cebacc844a8424b49e9c0bbb70a79"
+        },
+        {
+          "name": "model.safetensors",
+          "sha256": "89c512a30b6850ffaac744a16e9a8146ef4ea0ddea9b30be5714b66ccbb5912d"
+        },
+        {
+          "name": "README.md",
+          "sha256": "f879b10f2310beaf93bfb2bf75c3caa8b871e7a8bd827900d9d2ec6a1a43dbcf"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "sha256": "470cff6e0353b08e2a6e9b4f61729ecdc47ccb3ced335fa5520e9ce334572d59"
+        },
+        {
+          "name": "training_log.json",
+          "sha256": "3adb9b3fe9fe3cfc501a0a343c85cadd6e877506249e56850ca1d92d3aa71658"
+        },
+        {
+          "name": "vocab.txt",
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+        }
+      ]
+    }
+  ]
+}

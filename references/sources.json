@@ -1,0 +1,222 @@
+{
+  "reviewed_date": "2026-11-06",
+  "search_scope": "代表性官方GitHub/HuggingFace项目；不是穷尽全网，也不是全部已执行",
+  "sources": [
+    {
+      "repo": "Aboudjem/humanizer-skill",
+      "url": "https://github.com/Aboudjem/humanizer-skill",
+      "revision": "a58df065367550b6ce40ff3f648335018d8e0589",
+      "license": "MIT",
+      "description": "Free, open-source AI writing humanizer and detector. 55 patterns, 5 voices, a 0-100 AI-tell score, and nothing leaves your machine.",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "可执行线索定位与事实校验；不把词表命中换算作者身份",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "ahans30/Binoculars",
+      "url": "https://github.com/ahans30/Binoculars",
+      "revision": "c8ae2f90d50ee696418bc71d8d9e5020e5f9d7b8",
+      "license": "BSD-3-Clause",
+      "description": "[ICML 2024] Binoculars: Zero-Shot Detection of LLM-Generated Text",
+      "reviewed_date": "2026-11-06",
+      "category": "probability",
+      "adoption": "双模型概率比值；不搬用Falcon阈值到Qwen",
+      "status": "optional_reference"
+    },
+    {
+      "repo": "baoguangsheng/fast-detect-gpt",
+      "url": "https://github.com/baoguangsheng/fast-detect-gpt",
+      "revision": "971b05202bac2bb504d60c0ac0812fea7a8f7c82",
+      "license": "MIT",
+      "description": "Code base for ICLR 2024 \"Fast-DetectGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature\".",
+      "reviewed_date": "2026-11-06",
+      "category": "probability",
+      "adoption": "条件概率解析统计量；不同参考模型需独立校准",
+      "status": "optional_reference"
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "revision": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+      "license": "MIT",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "解释重复和结构线索；不复制无校准的作者身份判断",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "eric-mitchell/detect-gpt",
+      "url": "https://github.com/eric-mitchell/detect-gpt",
+      "revision": "447d2ce8177004203f42d1da87d7f93a2e31ad52",
+      "license": "MIT",
+      "description": "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature",
+      "reviewed_date": "2026-11-06",
+      "category": "probability",
+      "adoption": "扰动曲率思想；初版不默认安装扰动生成器",
+      "status": "reference_only"
+    },
+    {
+      "repo": "google-deepmind/synthid-text",
+      "url": "https://github.com/google-deepmind/synthid-text",
+      "revision": "9c055d932e042b75197e337371448a120bbc65bb",
+      "license": "Apache-2.0",
+      "description": null,
+      "reviewed_date": "2026-11-06",
+      "category": "watermark",
+      "adoption": "匹配生成配置时的检测；不将Unicode候选当统计水印",
+      "status": "reference_only"
+    },
+    {
+      "repo": "hannsxpeter/authenticity-check",
+      "url": "https://github.com/hannsxpeter/authenticity-check",
+      "revision": "0be7f0dfe1622720f3d1e7dcf34c5bb3839b5620",
+      "license": "MIT",
+      "description": "Pure-prompt skill that scores how authentically text reads as a real human author's work and flags AI-generated, AI-templated, or derivative spans. Diagnostic, read-only counterpart to humanizer; never rewrites. Works with Claude Code, Cursor, Codex, Antigravity, Gemini, Pi Coder, OpenCode, Copilot, Windsurf, Cline, Continue, Zed, and Aider.",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "来源线索与文风分离；不继承0–100真实性百分比",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "harshaneel/humanize",
+      "url": "https://github.com/harshaneel/humanize",
+      "revision": "9c3dec34dc8e0ed9d26de14a869900a714da8f9e",
+      "license": "MIT",
+      "description": "Best static AI text humanizer. Two research-grounded LLM-agnostic skills that make AI writing sound human and relatable. Nine levers, 50+ peer-reviewed sources, 2024-2026 detection literature.",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "保留引文式证据日志；拒绝27分阈值和AI编辑比例的未经校准映射",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "junchaoIU/DetectRL",
+      "url": "https://github.com/junchaoIU/DetectRL",
+      "revision": "c57c4560dd5686ed33146ac77ea21550dae26194",
+      "license": "not_declared",
+      "description": "[NeurIPS 2024 D&B] DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios",
+      "reviewed_date": "2026-11-06",
+      "category": "benchmark",
+      "adoption": "真实改写、混合和长度压力测试；未凭徽标推断代码许可",
+      "status": "reference_only"
+    },
+    {
+      "repo": "kinit-sk/mgt-detection-benchmark",
+      "url": "https://github.com/kinit-sk/mgt-detection-benchmark",
+      "revision": "56d5724fefd7bb794833c7d6c926d4695a5a3dbc",
+      "license": "GPL-3.0",
+      "description": "Multilingual machine-generated text detection benchmark",
+      "reviewed_date": "2026-11-06",
+      "category": "benchmark",
+      "adoption": "多语言与未见生成器评测；GPL代码未并入技能",
+      "status": "reference_only"
+    },
+    {
+      "repo": "liamdugan/raid",
+      "url": "https://github.com/liamdugan/raid",
+      "revision": "ac4ce10fe8fe096b0c4a01396f1e437aaf35bd53",
+      "license": "MIT",
+      "description": "RAID is the largest and most challenging benchmark for AI-generated text detection. (ACL 2024)",
+      "reviewed_date": "2026-11-06",
+      "category": "benchmark",
+      "adoption": "公开基准、固定FPR测召回和训练污染披露",
+      "status": "evaluation_design"
+    },
+    {
+      "repo": "lifeodyssey/de-ai-slop",
+      "url": "https://github.com/lifeodyssey/de-ai-slop",
+      "revision": "0e748566eba2ad06be8ccf3e5a83accc577666da",
+      "license": "MIT",
+      "description": "Trilingual (zh/en/ja) agent skill that removes AI-writing tells. npx skills add lifeodyssey/de-ai-slop",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "语言路由、证据片段；不把0–100质量分当AI率",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "mbzuai-nlp/M4",
+      "url": "https://github.com/mbzuai-nlp/M4",
+      "revision": "628bf0fcb2e8c6b7ffa71fd1af6be413aced8f7d",
+      "license": "not_declared",
+      "description": "M4: Multi-generator, Multi-domain, and Multi-lingual Black-Box Machine-Generated Text Detection",
+      "reviewed_date": "2026-11-06",
+      "category": "benchmark",
+      "adoption": "跨领域/生成器划分；未发现明确代码许可，不复制",
+      "status": "reference_only"
+    },
+    {
+      "repo": "syw2039/humanizer-zh",
+      "url": "https://github.com/syw2039/humanizer-zh",
+      "revision": "72d73f9c8132817e21f66369de6925a659f9a6a6",
+      "license": "MIT",
+      "description": "面向中文内容的去 AI 味 Agent Skill，支持事实保护和个人文风校准。",
+      "reviewed_date": "2026-11-06",
+      "category": "editorial",
+      "adoption": "中文语境、事实锁、学术误判防护；规则解释与模型信号分开",
+      "status": "ideas_only"
+    },
+    {
+      "repo": "THU-BPM/MarkLLM",
+      "url": "https://github.com/THU-BPM/MarkLLM",
+      "revision": "0a4fe8c642b31b8a8c4993615b1c70a0c300d918",
+      "license": "Apache-2.0",
+      "description": "[EMNLP 2024 Demo] MarkLLM: An Open-Source Toolkit for LLM Watermarking",
+      "reviewed_date": "2026-11-06",
+      "category": "watermark",
+      "adoption": "水印方案统一接口与评估；未知匹配密钥时不可检测",
+      "status": "reference_only"
+    },
+    {
+      "repo": "vivek3141/ghostbuster",
+      "url": "https://github.com/vivek3141/ghostbuster",
+      "revision": "f60068d006b7dc617af90e7148118837e85d0555",
+      "license": "NOASSERTION",
+      "description": "Ghostbuster: Detecting Text Ghostwritten by Large Language Models (NAACL 2024)",
+      "reviewed_date": "2026-11-06",
+      "category": "supervised_features",
+      "adoption": "概率特征选择并训练分类器；许可NOASSERTION且需目标域训练，不复制代码",
+      "status": "reference_only"
+    },
+    {
+      "repo": "YuchuanTian/AIGC_text_detector",
+      "url": "https://github.com/YuchuanTian/AIGC_text_detector",
+      "revision": "c745a14bc522e60e433bb94f2fea535f4824981c",
+      "license": "Apache-2.0",
+      "description": "[ICLR'24 Spotlight] The official codes of our work on AIGC detection: \"Multiscale Positive-Unlabeled Detection of AI-Generated Texts\"",
+      "reviewed_date": "2026-11-06",
+      "category": "classifier",
+      "adoption": "实际加载中英文V3；固定revision、类别映射、同片段比较",
+      "status": "checkpoint_adapter_active"
+    },
+    {
+      "repo": "AnxForever/chinese-ai-detector-bert",
+      "url": "https://huggingface.co/AnxForever/chinese-ai-detector-bert",
+      "revision": "346d23cbb1418790dc3d389faf54de665736516c",
+      "license": "MIT",
+      "category": "classifier",
+      "status": "checkpoint_adapter_active",
+      "adoption": "实际加载中文BERT，温度0.8165，256总token；不提供英文预测",
+      "reviewed_date": "2026-11-06"
+    },
+    {
+      "repo": "Hello-SimpleAI/HC3-Chinese",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+      "revision": "09a687b8dc164b89e7df95abf15df3b216bc31c2",
+      "license": "CC-BY-SA-4.0",
+      "category": "benchmark",
+      "status": "bounded_public_pilot",
+      "adoption": "有标签问答小样本流程验证；未知预训练重叠，不作为论文性能证明",
+      "reviewed_date": "2026-11-06"
+    },
+    {
+      "repo": "ATH-MaaS/Marco-LLM/DetectRL-X",
+      "url": "https://github.com/ATH-MaaS/Marco-LLM/tree/main/DetectRL-X",
+      "license": "conflicting_declarations",
+      "category": "benchmark",
+      "status": "reference_only",
+      "adoption": "GitHub写Apache2并限制非商业研究，HF写MIT；条款不一致，不下载并入商用技能",
+      "reviewed_date": "2026-11-06"
+    }
+  ]
+}
